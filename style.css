@@ -4,7 +4,8 @@ h1{
     color:#00A4BD;
 }
 .calculator{
-    max-width: 90%;
+    width: 50%;
+    max-width: 300px;
     margin:auto;/* puts the calculator in the middle */ 
     background-color: #b5e9e9;
     border-radius: 5%;
