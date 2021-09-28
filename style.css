@@ -15,6 +15,7 @@ h1{
     font-family: 'Orbitron', sans-serif;
     display: block;
     width: 90%;
+    max-width: 300px;
     margin:5%;/* center in container*/ 
     height:60px;
     background-color: rgb(255, 224, 212);
