@@ -15,7 +15,7 @@ h1{
 .display-viewer {
     font-family: 'Orbitron', sans-serif;
     display: block;
-    max-width: 90%;
+    max-width: 80%;
     margin:5%;/* center in container*/ 
     height:60px;
     background-color: rgb(255, 224, 212);
