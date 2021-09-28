@@ -5,6 +5,7 @@ h1{
 }
 .calculator{
     width: 90%;
+    max-width: 300px;
     margin:auto;/* puts the calculator in the middle */ 
     background-color: #b5e9e9;
     border-radius: 5%;
