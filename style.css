@@ -4,7 +4,7 @@ h1{
     color:#00A4BD;
 }
 .calculator{
-    width: 90%;
+    width:90%;
     max-width: 300px;
     margin:auto;/* puts the calculator in the middle */ 
     background-color: #b5e9e9;
@@ -14,9 +14,9 @@ h1{
 
 .display-viewer {
     font-family: 'Orbitron', sans-serif;
-    display: block;
-    max-width: 80%;
-    margin:5%;/* center in container*/ 
+    width:90%;
+    margin:4%;/* center in container*/
+    padding: 0px;
     height:60px;
     background-color: rgb(255, 224, 212);
     border: 2px solid rgb(255, 169, 134);
