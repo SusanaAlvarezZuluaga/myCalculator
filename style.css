@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    margin:10px;
+    color:#00A4BD;
+}
+.calculator{
+    max-width: 300px;
+    margin:auto;/* puts the calculator in the middle */ 
+    background-color: #b5e9e9;
+    border-radius: 5%;
+    border: 2px solid #00A4BD;
+}
+
+.display-viewer {
+    font-family: 'Orbitron', sans-serif;
+    display: block;
+    width: 90%;
+    margin:5%;/* center in container*/ 
+    height:60px;
+    background-color: rgb(255, 224, 212);
+    border: 2px solid rgb(255, 169, 134);
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    font-size:40px;
+    border-radius: 5%;
+}
+.button-container{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 5%;
+    justify-content: space-between;
+}
+.calc-button{
+    width: 30%; /* each button occupies 30% of the button container ansd the margins between the buttons are thanks to the property aboce: space-between*/ 
+    height: 40px;
+    margin-top:2.5%;
+    font-size:20px;
+}
