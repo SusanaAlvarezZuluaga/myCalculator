@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">     
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <h1>Susana's Calculator</h1>
     <div class="calculator">
-        <input class="display-viewer" type="text" placeholder="00000" id="todoInput" value=""/>
-        <div class="button-container">
-            <button class="calc-button" type="button" onclick="newClick('1')">1</button>
-            <button class="calc-button" type="button"onclick="newClick('2')">2</button>
-            <button class="calc-button" type="button" onclick="newClick('+')">+</button>
-            <button class="calc-button" type="button" onclick="newClick('3')">3</button>
-            <button class="calc-button" type="button" onclick="newClick('4')">4</button>
-            <button class="calc-button" type="button" onclick="newClick('-')">-</button>
-            <button class="calc-button" type="button" onclick="newClick('5')">5</button>
-            <button class="calc-button" type="button" onclick="newClick('6')">6</button>
-            <button class="calc-button" type="button" onclick="newClick('*')">*</button>
-            <button class="calc-button" type="button" onclick="newClick('7')">7</button>
-            <button class="calc-button" type="button" onclick="newClick('8')">8</button>
-            <button class="calc-button" type="button" onclick="newClick('/')" di>/</button>
-            <button class="calc-button" type="button" onclick="newClick('9')">9</button>
-            <button class="calc-button" type="button" onclick="newClick('0')">0</button>
-            <button class="calc-button" type="button" onclick="newClick('%')">%</button>
-            <button class="calc-button" type="button" onclick="newClick('(')">(</button>
-            <button class="calc-button" type="button" onclick="newClick(')')">)</button>
-            <button class="calc-button" type="button" onclick="newClick('^')">^</button>
-            <button class="calc-button" type="button" onclick="newClick('.')"> .</button>
-            <button class="calc-button" type="button" onclick="newClick('c')"> clear </button>
-            <button class="calc-button" type="button" onclick="newClick('=')"> = </button>
-        </div>
+      <input
+        class="display-viewer"
+        type="text"
+        placeholder="00000"
+        id="todoInput"
+        value=""
+      />
+      <div class="button-container">
+        <button class="calc-button" type="button" onclick="newClick('1')">
+          1
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('2')">
+          2
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('+')">
+          +
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('3')">
+          3
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('4')">
+          4
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('-')">
+          -
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('5')">
+          5
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('6')">
+          6
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('*')">
+          *
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('7')">
+          7
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('8')">
+          8
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('/')" di>
+          /
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('9')">
+          9
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('0')">
+          0
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('%')">
+          %
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('(')">
+          (
+        </button>
+        <button class="calc-button" type="button" onclick="newClick(')')">
+          )
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('^')">
+          ^
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('.')">
+          .
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('c')">
+          clear
+        </button>
+        <button class="calc-button" type="button" onclick="newClick('=')">
+          =
+        </button>
+      </div>
     </div>
-    <script src='script.js'></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
